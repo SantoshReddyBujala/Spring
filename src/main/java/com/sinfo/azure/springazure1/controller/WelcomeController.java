@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class WelcomeController {
     @GetMapping("welcome")
     public String wish(){
-        return "Welcome to Azure Deployment";
+        return "Welcome to Azure Deployment your successfully deployed";
     }
 }
